@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<font>hello</font>
 	<h1>index</h1>
 	<c:forEach items="${sessionScope.userList}" var="user">
 		<c:out value="${user.userId}"/>&nbsp;&nbsp;&nbsp;&nbsp;

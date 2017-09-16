@@ -9,5 +9,6 @@
 <body>
 	<h1>index</h1>
 	<font color="red">你好世界</font>
+	${requestScope.bookList.size()}
 </body>
 </html>

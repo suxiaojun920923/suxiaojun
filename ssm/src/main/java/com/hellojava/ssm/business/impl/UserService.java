@@ -9,9 +9,6 @@ import com.hellojava.ssm.entity.User;
 
 @Service("userService")
 public class UserService implements IUserService{
-	public UserService() {
-		System.out.println("userService");
-	}
 	@Autowired
 	private IUserDao userDao;
 	@Override

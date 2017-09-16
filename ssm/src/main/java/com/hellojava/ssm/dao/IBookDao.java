@@ -1,5 +1,9 @@
 package com.hellojava.ssm.dao;
 
-public interface IBookDao {
+import java.util.List;
 
+import com.hellojava.ssm.entity.Book;
+
+public interface IBookDao {
+	public List<Book> loadAll();
 }

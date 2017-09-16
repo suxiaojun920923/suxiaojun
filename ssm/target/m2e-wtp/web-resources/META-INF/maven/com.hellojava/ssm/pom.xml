@@ -109,8 +109,7 @@
     		<version>2.2</version>
     		<configuration>
     			<path>/ssm</path>
-    			<url>http://localhost/manager/text</url>
-    			<port>80</port>
+    			<url>http://localhost:8080/manager/text</url>
     			<username>admin</username>
     			<password>admin</password>
     			<update>true</update>
